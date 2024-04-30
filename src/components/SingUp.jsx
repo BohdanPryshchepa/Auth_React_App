@@ -7,6 +7,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import "./Form.css"
 
 
+
 const SignUp = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
@@ -19,15 +20,16 @@ const SignUp = () => {
             dispatch(setUser({
               email: user.email,
               id: user.id,
-              token: user.accessToken,
+              token: user.accessToken
+            
             }));
             navigate ('/');
           })
           .catch(console.error)
     }
   return (
-        <Form 
-            title='register'
+        <Form
+            title='Register'
             handleClick={handleRegister}
         />
   )

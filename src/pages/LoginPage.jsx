@@ -9,8 +9,8 @@ const LoginPage = () => {
     <div className="form-container">
         <h1>Login</h1>
         <Login />
-        <p>
-            Or <Link to="/register" className='btn'>register</Link>
+        <p className='change'>
+            Or <Link to="/register" className='btn'>Register</Link>
         </p>
     </div>
   )
