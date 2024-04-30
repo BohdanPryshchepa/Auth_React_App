@@ -1,1 +1,1 @@
-This is simple test versio, with some code
+This is simple This is simple Authorization React App
