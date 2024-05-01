@@ -1,7 +1,7 @@
 {
   "name": "auth",
   "version": "0.1.0",
-  "homepage": "https://BohdanPryshchepa.github.io/Auth_React_App",
+  "homepage": "https://bohdanpryshchepa.github.io/Auth_React_App",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "firebase": "^10.7.1",
